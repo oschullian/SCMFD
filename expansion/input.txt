@@ -1,0 +1,41 @@
+Input data
+
+nop               1
+noavp             30
+totruns		100
+avpstart        0
+avpout		 3.6e3
+modmomout	 50
+modnewavp	 1
+inpcellperc      0.1d0
+seed             23521
+fileappend       0
+radoutflow	 5.d-4
+
+!! wall specifications
+distx     1.d-2
+disty     1.d-2
+distz     1.d-2
+ncellx	 151
+ncelly	 151
+ncellz	 151
+tempwall  273.d0
+radiusvalve      1.e-3
+
+!!! particle type Ar
+np		400000
+diam            4.17d-10
+tref            273.d0
+visind            0.5d0
+partmass1     39.948d0  
+influx	     1.4d20
+
+!!! particle type He
+np		10000
+diam            5.17d-10
+tref            273.d0
+visind            0.5d0
+partmass1     3.948d0  
+influx	     1.4d17
+
+
