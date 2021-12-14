@@ -1,0 +1,38 @@
+Input data
+
+nop               1
+noavp             30
+totruns		2
+avpstart        0
+modavpout	 2
+inpcellperc      0.1d0
+trajlength       2.d-1
+dtmax            1e-6
+seed             23523
+
+!! wall specifications
+distx     1.d-1
+disty     1.d-1
+distz     1.d-1
+ncellx	 50
+ncelly	 50
+ncellz	 1
+tempwall  273.d0
+dpdz      -1.d0
+
+!!! particle type Ar
+np		1
+diam            4.17d-10
+tref            273.d0
+visind            0.5d0
+partmass1     39.948d0  
+npartdens	     1.4d20
+
+!!! particle type Ar
+np		1
+diam            4.17d-10
+tref            273.d0
+visind            0.5d0
+partmass1     39.948d0  
+npartdens	     1.4d20
+
